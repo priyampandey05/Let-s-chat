@@ -1,7 +1,14 @@
+import React from 'react'
+import Left from './Home/Leftpart/Left'
+import Right from './Home/Rightpart/Right'
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <div className="flex h-screen">
+        <Left/>
+        <Right/>
+      </div>
+    </>
   )
 }
